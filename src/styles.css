@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: Simplecat;
+    font-style: normal;
+    font-weight: normal;
+    src: url("./assets/Simplecat-d9xpV.otf") format("opentype");
+}
+
+html, body { height: 100%; }
+body { 
+    margin: 0;
+    font-family: 'Simplecat';
+        background-image: url('./assets/katze-pattern.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}

@@ -1,0 +1,8 @@
+mat-toolbar{
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Simplecat';
+    font-size: 32px;
+}

@@ -1,0 +1,11 @@
+<mat-card class="card">
+    <img *ngIf="!this.loading; else elseBlock" class="card-img" mat-card-image src="{{this.catData.url}}" alt="😹">
+    <!-- <img *ngIf="!this.loading; else elseBlock" class="card-img" mat-card-image [src]="this.imageToShow" alt="😹"> -->
+    <ng-template #elseBlock>
+      <img class="card-img" mat-card-image src="../../assets/cat_walk.gif" alt="😹">
+    </ng-template>
+    <mat-card-actions>
+        <button mat-fab color="accent" (click)="getCats()">🐈</button>
+        <span>&#8592;Click here to get a new cat</span>
+      </mat-card-actions>
+</mat-card>

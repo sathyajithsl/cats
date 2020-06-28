@@ -1,0 +1,14 @@
+.card {
+  width: 350px;  
+  margin:20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-img{
+  //max-height: 300px;
+  height: 300px;
+  object-fit: scale-down;
+}
+span{
+  font-family: 'Simplecat';
+}
